@@ -1,0 +1,24 @@
+# Ignore local-only files
+lua/config/local.lua
+
+# Neovim temp/state files
+.netrwhist
+shada/
+.session
+*.swp
+*.swo
+*.un~
+.undodir/
+
+# Spell files (optional)
+spell/*.add.spl
+spell/*.add.sug
+
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
